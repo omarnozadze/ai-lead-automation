@@ -2,37 +2,72 @@
 
 AI-powered lead discovery and outreach workflow built for BooleanAI.
 
-## What this project does
+## Overview
 
-This project helps automate parts of B2B lead generation.
+This project automates parts of B2B lead generation and outreach.
 
-The workflow can:
-
-- collect company/job data
-- structure lead information
-- prevent duplicate outreach
-- prepare personalized outreach messages
-- track contact status
-- prepare follow-up messages
+It helps collect company information, structure lead data, prevent duplicate outreach, generate personalized messages, and track follow-ups.
 
 ## Problem
 
-B2B outreach often requires a lot of repetitive manual work:
-finding companies, collecting contact data, writing personalized messages, and tracking follow-ups.
+B2B outreach often involves repetitive manual work:
+
+- finding relevant companies
+- collecting contact details
+- checking whether the company was already contacted
+- writing personalized outreach messages
+- tracking follow-ups
+- keeping lead status updated
 
 ## Solution
 
-This project combines automation and AI to reduce manual work while keeping a human review step before sending messages.
+The workflow combines automation and AI while keeping a human review step before sending messages.
+
+## Workflow
+
+Lead Source  
+↓  
+Company Data Extraction  
+↓  
+Duplicate Check  
+↓  
+AI Personalization  
+↓  
+Google Sheets  
+↓  
+Human Review  
+↓  
+Outlook  
+↓  
+Follow-up Tracking
 
 ## Tech Stack
 
 - n8n
 - Google Sheets
-- AI / LLM
-- Webhooks
 - REST API
+- Webhooks
 - JSON
+- AI / LLM
+- Outlook
 
-## Current Status
+## Key Features
+
+- lead data collection
+- duplicate prevention
+- AI-generated personalized outreach
+- manual review before sending
+- follow-up tracking
+- simple CRM-style status management
+
+## Project Status
 
 Work in progress.
+
+## Future Improvements
+
+- automatic lead scoring
+- CRM integration
+- email response classification
+- automatic follow-up reminders
+- analytics dashboard
