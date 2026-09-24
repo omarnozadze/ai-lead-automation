@@ -1,1 +1,9 @@
-
+{
+  "company": "Example Logistics",
+  "domain": "example.com",
+  "email": "info@example.com",
+  "job_title": "B2B Sales Manager",
+  "status": "REVIEW",
+  "last_contacted": null,
+  "automation_opportunity": "Lead qualification and follow-up automation"
+}
